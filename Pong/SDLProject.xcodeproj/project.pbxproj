@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C6361760251435A100FFDAB0 /* ctg.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C636175F2514356A00FFDAB0 /* ctg.png */; };
 		C68F08832515D3ED0055D6C3 /* ufoBlue.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C68F08822515D3E20055D6C3 /* ufoBlue.png */; };
+		C69C23DE254E7B7A00AE5CB8 /* dooblydoo.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C69C23DD254E7B5B00AE5CB8 /* dooblydoo.mp3 */; };
+		C69C23E0254E7B8000AE5CB8 /* bounce.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = C69C23DF254E7B8000AE5CB8 /* bounce.wav */; };
 		DBDF1B532323DE3F007CECB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B522323DE3F007CECB1 /* main.cpp */; };
 		DBDF1B5E2323DE8D007CECB1 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */; };
 		DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBDF1B5C2323DE8D007CECB1 /* shaders */; };
@@ -27,6 +29,8 @@
 			dstSubfolderSpec = 6;
 			files = (
 				DBDF1B612323DE9E007CECB1 /* shaders in CopyFiles */,
+				C69C23E0254E7B8000AE5CB8 /* bounce.wav in CopyFiles */,
+				C69C23DE254E7B7A00AE5CB8 /* dooblydoo.mp3 in CopyFiles */,
 				C6361760251435A100FFDAB0 /* ctg.png in CopyFiles */,
 				C68F08832515D3ED0055D6C3 /* ufoBlue.png in CopyFiles */,
 			);
@@ -37,6 +41,8 @@
 /* Begin PBXFileReference section */
 		C636175F2514356A00FFDAB0 /* ctg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctg.png; sourceTree = "<group>"; };
 		C68F08822515D3E20055D6C3 /* ufoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufoBlue.png; sourceTree = "<group>"; };
+		C69C23DD254E7B5B00AE5CB8 /* dooblydoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dooblydoo.mp3; sourceTree = "<group>"; };
+		C69C23DF254E7B8000AE5CB8 /* bounce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bounce.wav; sourceTree = "<group>"; };
 		DBDF1B4F2323DE3F007CECB1 /* SDLProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDF1B522323DE3F007CECB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DBDF1B592323DE8D007CECB1 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
@@ -88,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				C68F08822515D3E20055D6C3 /* ufoBlue.png */,
+				C69C23DF254E7B8000AE5CB8 /* bounce.wav */,
 				C636175F2514356A00FFDAB0 /* ctg.png */,
+				C69C23DD254E7B5B00AE5CB8 /* dooblydoo.mp3 */,
 				DBDF1B5B2323DE8D007CECB1 /* glm */,
 				DBDF1B5D2323DE8D007CECB1 /* ShaderProgram.cpp */,
 				DBDF1B592323DE8D007CECB1 /* ShaderProgram.h */,
